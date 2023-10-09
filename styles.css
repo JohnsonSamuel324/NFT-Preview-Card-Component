@@ -106,11 +106,18 @@ main {
 }
 
 @media (min-width: 1024px) {
+    p {
+        font-size: 20px;
+    }
     .nft-card {
         width: 35%;
     }
     #nft-desc {
         width: 85%;
+    }
+    #nft-price {
+        font-size: 1.15rem;
+        width: 150%;
     }
     .nft-creator {
         margin-bottom: 2rem;
