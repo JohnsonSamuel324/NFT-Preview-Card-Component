@@ -104,3 +104,20 @@ main {
 .attribution a { 
     color: hsl(228, 100%, 85%);
 }
+
+@media (min-width: 1024px) {
+    .nft-card {
+        width: 35%;
+    }
+    #nft-desc {
+        width: 85%;
+    }
+    .nft-creator {
+        margin-bottom: 2rem;
+    }
+}
+@media (min-width: 1440px) {
+    .nft-card {
+        width: 25%;
+    }
+}
